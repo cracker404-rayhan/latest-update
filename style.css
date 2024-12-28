@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: rgb(107, 90, 90);
+}
+
+#login-screen {
+    margin-top: 300px;
+   
+}
+
+input {
+    padding: 20px;
+    margin: 20px;
+    font-size: 16px;
+}
+
+button {
+    padding: 20px 20px;
+    font-size: 16px;
+    
+}
+
+#gameCanvas {
+    border: 10px double rgb(36, 13, 165);
+    border-top: 10px double red;
+    border-right: 10px double rgb(9, 156, 9);
+    border-left: 10px double rgb(109, 109, 43);
+    margin-top: 100px;
+    background-color: rgb(192, 161, 161);
+}
+
+#x9{
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 24, 24);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+}
+#x10{
+    color: aqua;
+    margin-left: 500px;
+    max-height: 500px;
+    font-weight: 200px;
+    background-color: cornflowerblue;
+    background: black;
+}

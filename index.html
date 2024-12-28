@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paid Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1 id="x9">develop by {RAYHAN}</h1>
+    <h5 id="x10">snake game</h5>
+    <!-- <h3 id="X11">R4F1</h3> -->
+
+    <div id="login-screen">
+      <h2>গেমে ঢুকতে পাসওয়ার্ড দিন {paid}</h2>
+      <input type="password" id="password" placeholder="পাসওয়ার্ড" />
+      <button onclick="checkPassword()">পাসওয়ার্ড যাচাই করুন</button>
+      <p id="error-message" style="color: red"></p>
+    </div>
+
+    <div id="game-screen" style="display: none">
+      <canvas id="gameCanvas" width="400" height="400"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
